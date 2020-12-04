@@ -1,0 +1,111 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#logo {
+  align-items: center;
+  justify-items: center;
+}
+
+#menu {
+  align-items: center;
+  justify-items: center;
+}
+
+nav img {
+  height: 50px;
+  width: 50px;
+}
+
+.capa {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  background-size: cover;
+  background-image: url(../imagens/mulhermaravilha.png);
+  justify-content: center;
+  color: white;
+}
+
+#tituloCapa {
+  font-size: 80px;
+  font-weight: bolder;
+  margin-left: 80px;
+}
+
+#subtituloCapa {
+  font-size: 30px;
+  margin-left: 80px;
+}
+
+button {
+  border-radius: 50px;
+  border: 0;
+}
+
+#buttonDestaqueDoMes {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  border-color: white;
+  margin-top: 20px;
+  height: 40px;
+  width: 150px;
+  border: solid 2px;
+}
+
+#buttonCapa {
+  background-color: white;
+  height: 100px;
+  width: 300px;
+  color: salmon;
+  font-size: 30px;
+  margin-left: 80px;
+}
+
+.destaqueBranco {
+  font-size: 30px;
+  color: white;
+  font-family: montserrat;
+  font-weight: bolder;
+  margin-right: 50px;
+}
+
+.destaqueDoMes {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+#nomeDestaque {
+  color: orangered;
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+article {
+  color: white;
+  width: 250px;
+}
+.destaqueDoMes img {
+  border-radius: 50%;
+  height: 300px;
+}
+
+footer {
+  display: flex;
+  background-color: orangered;
+  color: white;
+  height: 200px;
+}
+
+footer img {
+  height: 50px;
+  width: 50px;
+}
