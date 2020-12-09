@@ -1,21 +1,36 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
 }
 
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  height: 80px;
+  align-items: center;
+  font-size: xx-large;
 }
 
+a:hover {
+  color: orangered;
+}
 #logo {
   align-items: center;
   justify-items: center;
+  min-width: 50%;
 }
 
 #menu {
+  min-width: 50%;
   align-items: center;
   justify-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: black;
 }
 
 nav img {
@@ -26,9 +41,10 @@ nav img {
 .capa {
   display: flex;
   flex-direction: column;
-  height: 800px;
+  height: 1000px;
   background-size: cover;
   background-image: url(../imagens/mulhermaravilha.png);
+
   justify-content: center;
   color: white;
 }
@@ -72,9 +88,72 @@ button {
 .destaqueBranco {
   font-size: 30px;
   color: white;
-  font-family: montserrat;
+
   font-weight: bolder;
   margin-right: 50px;
+}
+
+.pesquisa {
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-bottom: 25px;
+  align-content: center;
+  font-size: 40px;
+}
+
+.pesquisa input {
+  width: 50%;
+  border-radius: 100px;
+  border: solid black 2px;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.pesquisa button {
+  border-radius: 100px;
+  border: solid white 2px;
+  font-size: 30px;
+  background-color: black;
+  height: 50px;
+  width: 200px;
+  color: white;
+}
+.galeria {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.galeria button {
+  border: 0;
+  border-radius: 50px;
+  height: 60px;
+  width: 200px;
+  font-size: 25px;
+  justify-content: center;
+  background-color: orangered;
+  color: white;
+}
+
+.galeria img {
+  height: 500px;
+  width: 300px;
+}
+
+.filmes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 25px;
+  max-width: 1600px;
 }
 
 .destaqueDoMes {
@@ -93,9 +172,21 @@ article {
   color: white;
   width: 250px;
 }
+
 .destaqueDoMes img {
   border-radius: 50%;
   height: 300px;
+}
+
+.fraseDeEfeito {
+  display: flex;
+  justify-content: left;
+}
+
+.fraseDeEfeito article {
+  font-size: 60px;
+  background-color: black;
+  font-weight: bolder;
 }
 
 footer {
